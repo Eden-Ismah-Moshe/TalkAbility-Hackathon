@@ -2,10 +2,13 @@ import os
 import openai
 import json
 from pathlib import Path
+import nltk
+from googletrans import Translator
 
 class library:
     def __init__(self):
-        openai.api_key = "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"
+        self.translator = Translator()
+        openai.api_key = "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"
         self.model = openai.model = "gpt-3.5-turbo"
 
     def get_transcript(self):
@@ -25,8 +28,10 @@ class library:
         return completion.choices[0].message["content"]
 
 
-library = library()
-transcript_t = library.get_transcript()
-print(transcript_t)
-print(library.get_summery(transcript_t))
+    def translate(self, transcript):
+        return self.translator.translate(transcript, dest='en').text
 
+lib = library()
+t = lib.get_transcript()
+print(type(t))
+print(lib.translate(t))
