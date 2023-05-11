@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+    <div class="hero-image">
+        <img src="{% static 'Screenshot_17.jpg' %}" alt="Screenshot">
+    </div>
+	<title>TalkAbility</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/index.css' %}">
+    <script src="talkAbility.js"></script>
+</head>
+
+<body>
+<div id="allform">
+
+<div class="contact-form">
+
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone-number">Phone number:</label>
+      <input type="phone-number" id="phone-number" name="phone-number" required>
+    </div>
+
+	<div class="form-group">
+		<label for="location">Location:</label>
+		<input type="location" id="location" name="location" required>
+	  </div>
+
+    <div class="form-group">
+		<label for="source-lan">Source Lanangue:</label>
+		<input type="source-lan" id="source-lan" name="source-lan" required>
+	  </div>
+
+     <div class="form-group">
+		<label for="urgency">Urgency:</label>
+		<input type="urgency" id="urgency" name="urgency" required>
+	  </div>
+    <div class="department-select" style="width:200px;">
+
+  <select>
+    <option value="0">Department:</option>
+    <option value="1">14K</option>
+    <option value="2">18K</option>
+    <option value="3">22K</option>
+  </select>
+</div>
+
+
+    <div class="form-group">
+		<label>
+            Is he an existing customer?
+			<input type="checkbox" name="terms" value="agree" required>
+		</label>
+	</div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+
+<div id="window">
+
+		<button id="button1">Summary</button>
+        <button id="button3">Transcription</button>
+		<button id="button2">Original Language</button><br/><br/>
+    <p id="text" readonly>text1</p>
+	</div>
+
+	<script>
+		const button1 = document.getElementById("button1");
+		const button2 = document.getElementById("button2");
+        const button3 = document.getElementById("button3");
+		const text = document.getElementById("text");
+
+		button1.addEventListener("click", () => {
+			text.innerText = "Text1";
+		});
+
+		button2.addEventListener("click", () => {
+			text.innerText = "Text2";
+		});
+
+        button3.addEventListener("click", () => {
+			text.innerText = "Text3";
+		});
+	</script>
+        <br/><br/><button type="submit">Application successfully processed</button>
+
+
+</body>
+
+
+<footer>
+<div id="footer"></div>
+
+</footer>
+
+</html>
