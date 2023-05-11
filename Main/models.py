@@ -1,10 +1,6 @@
 from django.db import models
 
 # Create your models here.
-<<<<<<< HEAD
-
-
-=======
 class Customer(models.Model):
     customer_id = models.BigAutoField(primary_key=True, editable=False)
     first_name = models.CharField(max_length=10)
@@ -81,4 +77,3 @@ class Representative(models.Model):
     name = models.CharField(max_length=200)
     def __str__(self):
         return self.name
->>>>>>> ad9305ba2e603b787195418646ac5b4a5ff9ea9b
