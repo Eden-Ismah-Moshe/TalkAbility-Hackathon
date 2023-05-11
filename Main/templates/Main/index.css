@@ -16,6 +16,23 @@
     src: url('Fonts/Frank_Ruhl_Libre/FrankRuhlLibre-VariableFont_wght.ttf');
   }
   
+
+  .hero-image {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Screenshot_17.jpg');
+    background-color: #bf9e9e; /* Fallback color in case image fails to load */
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+
 /* Sections */
 section {
 	padding: 4rem 2rem;
@@ -30,29 +47,7 @@ section {
     font-family: 's';
 }
 
-/* START ABOUT */
 
-#about
-{
-    
-    font-size: 0.85rem;
-    /* font-family:'Courier New', Courier, monospace; */
-    text-align: center;
-    margin-bottom: 80px;
-}
-#about h2{
-  font-family: "Varela";
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 3rem;
-    
-}
-#about p{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* END ABOUT */
 form h2 {
   margin-top: 70px;
 }
@@ -210,4 +205,42 @@ form {
     transform: rotate(45deg);
     
   }
-  
+    /* Hero section */
+
+    
+      
+
+/*eden add */
+      .window {
+        width: 400px;
+        height: 300px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        position: relative;
+      }
+      
+      .toolbar {
+        background-color: #eee;
+        padding: 5px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+      
+      .button {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        margin-right: 5px;
+        cursor: pointer;
+      }
+      
+      .content {
+        margin-top: 30px;
+      }
+      
+      #text2 {
+        display: none;
+      }
+      
