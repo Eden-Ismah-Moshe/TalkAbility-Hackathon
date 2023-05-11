@@ -12,6 +12,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
+  config.vm.box_download_insecure=true
   config.vm.box = "fedora/34-cloud-base"
   config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
   config.vm.provider "virtualbox" do |vb|
