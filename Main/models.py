@@ -37,7 +37,7 @@ class Customer(models.Model):
     email = models.EmailField(max_length=254, unique=True)
 
 
-class Representative(models.Model):
+class Agent(models.Model):
     ID = models.BigAutoField(primary_key=True, editable=False)
     first_name = models.CharField(max_length=10)
     last_name = models.CharField(max_length=10)
@@ -47,7 +47,7 @@ class Request(models.Model):
 
     ID = models.BigAutoField(primary_key=True, editable=False)
     customer_ID = models.ForeignKey(Customer, on_delete=models.CASCADE)
-    representative_ID = models.ForeignKey(Representative, on_delete=models.CASCADE)
+    representative_ID = models.ForeignKey(Agent, on_delete=models.CASCADE)
     audio_path = models.CharField(max_length=200)
     origin_transcript = models.CharField(max_length=200)
     target_transcript = models.CharField(max_length=200)
