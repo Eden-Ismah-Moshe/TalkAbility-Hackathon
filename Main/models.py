@@ -48,6 +48,7 @@ class Request(models.Model):
     ID = models.BigAutoField(primary_key=True, editable=False)
     customer_ID = models.ForeignKey(Customer, on_delete=models.CASCADE)
     representative_ID = models.ForeignKey(Representative, on_delete=models.CASCADE)
+    audio_path = models.CharField(max_length=200)
     origin_transcript = models.CharField(max_length=200)
     target_transcript = models.CharField(max_length=200)
 
