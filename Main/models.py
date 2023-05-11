@@ -1,10 +1,12 @@
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
-# Create your models here.
+
 class Customer(models.Model):
     customer_id = models.BigAutoField(primary_key=True, editable=False)
     first_name = models.CharField(max_length=10)
     last_name = models.CharField(max_length=10)
+
     class Language(models.TextChoices):
         ENGLISH = 'EN', _('English')
         SPANISH = 'SP', _('Spanish')
@@ -14,15 +16,15 @@ class Customer(models.Model):
         HEBREW = 'HE', _('Hebrew')
         ARABIC = 'AR', _('Arabic')
         RUSSIAN = 'RU', _('Russian')
-    language = models.CharField(max_length=200)
+    language = models.CharField(max_length=15, choices=Language.choices)
     age = models.IntegerField()
+
     class City(models.TextChoices):
         NEW_YORK = 'NY', _('New York')
         LOS_ANGELES = 'LA', _('Los Angeles')
         CHICAGO = 'CH', _('Chicago')
         HOUSTON = 'HO', _('Houston')
         PHOENIX = 'PH', _('Phoenix')
-        PHILADELPHIA = 'PH', _('Philadelphia')
         SAN_ANTONIO = 'SA', _('San Antonio')
         SAN_DIEGO = 'SD', _('San Diego')
         DALLAS = 'DA', _('Dallas')
@@ -30,9 +32,15 @@ class Customer(models.Model):
         AUSTIN = 'AU', _('Austin')
         JACKSONVILLE = 'JA', _('Jacksonville')
         FORT_WORTH = 'FW', _('Fort Worth')
-    city = models.CharField(max_length=200)
-    phone = PhoneNumberField(null=False, blank=False, unique=True)
+    city = models.CharField(max_length=15, choices=City.choices)
+    phone = models.CharField(max_length=15)
     email = models.EmailField(max_length=254, unique=True)
+
+
+class Representative(models.Model):
+    ID = models.BigAutoField(primary_key=True, editable=False)
+    first_name = models.CharField(max_length=10)
+    last_name = models.CharField(max_length=10)
 
 
 class Request(models.Model):
@@ -42,6 +50,7 @@ class Request(models.Model):
     representative_ID = models.ForeignKey(Representative, on_delete=models.CASCADE)
     origin_transcript = models.CharField(max_length=200)
     target_transcript = models.CharField(max_length=200)
+
     class Language(models.TextChoices):
         ENGLISH = 'EN', _('English')
         SPANISH = 'SP', _('Spanish')
@@ -52,14 +61,16 @@ class Request(models.Model):
         ARABIC = 'AR', _('Arabic')
         RUSSIAN = 'RU', _('Russian')
         OTHER = 'OTHER'
-    origin_language = models.CharField(max_length=200, choices=Language.choices, default=Language.ENGLISH)
+    origin_language = models.CharField(max_length=15, choices=Language.choices, default=Language.ENGLISH)
+
     class Status(models.TextChoices):
         PENDING = 'PENDING'
         IN_PROGRESS = 'IN_PROGRESS'
         COMPLETED = 'COMPLETED'
         CANCELLED = 'CANCELLED'
         FAILED = 'FAILED'
-    status = models.CharField(max_length=200, choices=Status.choices, default=Status.PENDING)
+    status = models.CharField(max_length=15, choices=Status.choices, default=Status.PENDING)
+
     class Department(models.TextChoices):
         LEGAL = 'LEGAL'
         MEDICAL = 'MEDICAL'
@@ -68,12 +79,8 @@ class Request(models.Model):
         EDUCATIONAL = 'EDUCATIONAL'
         BUSINESS = 'BUSINESS'
         OTHER = 'OTHER'
-    department = models.CharField(max_length=200, choices=Department.choices, default=Department.OTHER)
+    department = models.CharField(max_length=15, choices=Department.choices, default=Department.OTHER)
     time_of_request = models.DateTimeField('date published')
     request_summary = models.CharField(max_length=200)
 
-class Representative(models.Model):
-    ID = models.BigAutoField(primary_key=True, editable=False)
-    name = models.CharField(max_length=200)
-    def __str__(self):
-        return self.name
+
