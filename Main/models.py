@@ -65,12 +65,10 @@ class Request(models.Model):
         FAILED = 'FAILED'
     status = models.CharField(max_length=200, choices=Status.choices, default=Status.PENDING)
     class Department(models.TextChoices):
-        LEGAL = 'LEGAL'
-        MEDICAL = 'MEDICAL'
-        FINANCIAL = 'FINANCIAL'
+        SALES = 'SALES'
+        SUBSCRIPTION = 'SUBSCRIPTION'
         TECHNICAL = 'TECHNICAL'
-        EDUCATIONAL = 'EDUCATIONAL'
-        BUSINESS = 'BUSINESS'
+        BILLING = 'BILLING'
         OTHER = 'OTHER'
     department = models.CharField(max_length=200, choices=Department.choices, default=Department.OTHER)
     time_of_request = models.DateTimeField('date published')
@@ -81,4 +79,3 @@ class Representative(models.Model):
     name = models.CharField(max_length=200)
     def __str__(self):
         return self.name
->>>>>>> ad9305ba2e603b787195418646ac5b4a5ff9ea9b
