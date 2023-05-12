@@ -42,10 +42,10 @@ class library:
         return completion.choices[0].message["content"]
 
 
-library = library()
-transcript = library.get_transcript()
-print(transcript)
-transcript = "I want to buy a product and I want to reclaim a product."
+#library = library()
+#transcript = library.get_transcript()
+#print(transcript)
+transcript = "my computer does not work"
 
 #Train Set
 Train_data=pd.read_csv("Corpus.csv")
@@ -124,22 +124,22 @@ from keras.models import load_model
 
 def main():
     One_hot_test=keras.utils.to_categorical(Test_Y , num_classes=5)
-    one_hot_train = keras.utils.to_categorical(Train_Y, num_classes=5)
+    # one_hot_train = keras.utils.to_categorical(Train_Y, num_classes=5)
 
-    model = Sequential()
-    model.add(Dense(350, activation='tanh',input_dim=293))
-    model.add(Dense(250, activation='tanh'))
-    model.add(Dense(200, activation='tanh'))
-    model.add(Dense(100, activation='tanh'))
-    model.add(Dense(5, activation='softmax'))
-    model.compile(optimizer='rmsprop',loss='categorical_crossentropy',metrics=['accuracy'])
-
-    filepath="Final_model.hdf5"
-    checkpointer = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
-    model.fit(Train_X_Tfidf, batch_size=32, y=one_hot_train, verbose=1,shuffle=True, epochs=50, callbacks=[checkpointer])
-    model.evaluate(Test_X_Tfidf,One_hot_test)
-    print(model.summary())
-    model.save('my_mode60.h5')
+    # model = Sequential()
+    # model.add(Dense(350, activation='tanh',input_dim=293))
+    # model.add(Dense(250, activation='tanh'))
+    # model.add(Dense(200, activation='tanh'))
+    # model.add(Dense(100, activation='tanh'))
+    # model.add(Dense(5, activation='softmax'))
+    # model.compile(optimizer='rmsprop',loss='categorical_crossentropy',metrics=['accuracy'])
+    #
+    # filepath="Final_model.hdf5"
+    # checkpointer = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
+    # model.fit(Train_X_Tfidf, batch_size=32, y=one_hot_train, verbose=1,shuffle=True, epochs=50, callbacks=[checkpointer])
+    # model.evaluate(Test_X_Tfidf,One_hot_test)
+    # print(model.summary())
+    # model.save('my_mode60.h5')
 
     model2 = load_model('my_mode60.h5')
     model2.evaluate(Test_X_Tfidf,One_hot_test)
@@ -156,7 +156,7 @@ def main():
 
 
     print("predictions ---> ",predictions)
-    print("Actual values ---> ",Test_actual)
+    #print("Actual values ---> ",Test_actual)
     #Final_Result=pd.DataFrame({"file":Test_file_names,"Class":predictions })
     #Final_Result.to_csv("Not_so_bayesic_I-0SAJ4.csv",header=True)
 
