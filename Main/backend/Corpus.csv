@@ -1,0 +1,192 @@
+sentence,SALES,SUBSCRIPTION,TECHNICAL,BILLING,OTHER,Label
+I have a question about the new product features and pricing,1,0,0,0,0,1
+Can you provide more details about the subscription plans?,0,1,0,0,0,2
+I'm experiencing some technical issues with the software,0,0,1,0,0,3
+I need assistance with my billing statement,0,0,0,1,0,4
+Do you have a customer service department for inquiries?,1,0,0,0,0,1
+How can I cancel my subscription?,0,1,0,0,0,2
+I forgot my account password can you help me reset it?,0,0,1,0,0,3
+I have a complaint about the service I received,0,0,0,0,1,5
+Is there a trial period for the product?,1,0,0,0,0,1
+I want to upgrade my current subscription plan,0,1,0,0,0,2
+Can I request a demo of the product before purchasing?,1,0,0,0,0,1
+What is the duration of the subscription plans?,0,1,0,0,0,2
+I'm encountering a bug in the software how can I report it?,0,0,1,0,0,3
+I need help understanding the charges on my bill,0,0,0,1,0,4
+Is there a dedicated sales team for enterprise customers?,1,0,0,0,0,1
+How can I downgrade my current subscription plan?,0,1,0,0,0,2
+I'm locked out of my account what should I do?,0,0,1,0,0,3
+I'm unsatisfied with the customer support I received,0,0,0,0,1,5
+Are there any hidden fees associated with the product?,1,0,0,0,0,1
+Can I switch to a different subscription plan mid-cycle?,0,1,0,0,0,2
+What is the typical processing time for refunds?,0,0,0,1,0,4
+I'm unable to download the latest software update,0,0,1,0,0,3
+Do you offer discounts for long-term subscriptions?,1,0,0,0,0,1
+Can I transfer my subscription to another user?,0,1,0,0,0,2
+How can I update my payment method for the subscription?,0,0,0,1,0,4
+Is there a referral program for recommending the product?,1,0,0,0,0,1
+I have feedback on the user interface where can I share it?,0,0,0,0,1,5
+Can you provide a product demo tailored to my specific needs?,1,0,0,0,0,1
+What is the pricing structure for the different subscription tiers?,0,1,0,0,0,2
+I'm unable to log in to my account what should I do?,0,0,1,0,0,3
+I have a question about a specific charge on my credit card,0,0,0,1,0,4
+Is there a dedicated support team for technical issues?,0,0,1,0,0,3
+Can I switch from a monthly to an annual subscription?,0,1,0,0,0,2
+I accidentally deleted some important data can it be recovered?,0,0,1,0,0,3
+I have a suggestion for improving the billing process,0,0,0,1,0,4
+Are there any additional fees for accessing certain features?,1,0,0,0,0,1
+How can I add more users to my subscription account?,0,1,0,0,0,2
+Is there a knowledge base or documentation available for troubleshooting?,0,0,1,0,0,3
+I'm having trouble canceling my subscription what should I do?,0,1,0,0,0,2
+Do you offer a money-back guarantee if I'm not satisfied?,1,0,0,0,0,1
+Can I downgrade my subscription plan without losing any data?,0,1,0,0,0,2
+I need to update the billing address associated with my account,0,0,0,1,0,4
+Is there a community forum or user group for discussions?,0,0,0,0,1,5
+Can I pause my subscription temporarily without canceling it?,0,1,0,0,0,2
+I have suggestions for expanding the product's integration capabilities,0,0,0,0,1,5
+Can you provide a custom quote for enterprise-level usage?,1,0,0,0,0,1
+Is there a trial period for the premium subscription tier?,0,1,0,0,0,2
+I'm encountering a compatibility issue with another software,0,0,1,0,0,3
+I have a question about the refund policy for unused subscriptions,0,0,0,1,0,4
+Do you offer live chat support for immediate assistance?,1,0,0,0,0,1
+How can I switch my subscription to a different email address?,0,1,0,0,0,2
+I accidentally deleted an important file can it be restored from backup?,0,0,1,0,0,3
+I have a suggestion for improving the customer service experience,0,0,0,0,1,5
+Are there any discounts available for non-profit organizations?,1,0,0,0,0,1
+Can I upgrade my subscription plan in the middle of a billing cycle?,0,1,0,0,0,2
+How can I access previous versions of the software for download?,0,0,1,0,0,3
+I'm having difficulty understanding the invoice breakdown,0,0,0,1,0,4
+Is there an option for a multi-year subscription with discounted pricing?,1,0,0,0,0,1
+Can I transfer my subscription to a different product within the same company?,0,1,0,0,0,2
+I need to update my credit card information for recurring payments,0,0,0,1,0,4
+Is there a user community where I can connect with other users for assistance?,0,0,0,0,1,5
+Can I put my subscription on hold while I'm on vacation?,0,1,0,0,0,2
+I have ideas for expanding the product's mobile app functionality,0,0,0,0,1,5
+Can you provide a product comparison with your competitors?,1,0,0,0,0,1
+What is the process for upgrading to a higher-tier subscription plan?,0,1,0,0,0,2
+I'm unable to access certain features of the software,0,0,1,0,0,3
+I have a question about the tax information on my invoice,0,0,0,1,0,4
+Are there any special offers or promotions available currently?,1,0,0,0,0,1
+Can I downgrade my subscription plan without losing any data?,0,1,0,0,0,2
+I accidentally deleted an important email can it be recovered?,0,0,1,0,0,3
+I have feedback on improving the user interface for mobile devices,0,0,0,0,1,5
+Is there a discount for educational institutions or students?,1,0,0,0,0,1
+Can I change my subscription plan to a family or group plan?,0,1,0,0,0,2
+How can I troubleshoot frequent software crashes on my system?,0,0,1,0,0,3
+I'm having difficulty reconciling my account statements,0,0,0,1,0,4
+Do you offer customization options for the product based on specific needs?,1,0,0,0,0,1
+Can I transfer my subscription to another company or organization?,0,1,0,0,0,2
+I need to update my payment information for automatic renewals,0,0,0,1,0,4
+Is there a user forum where I can ask questions and share ideas?,0,0,0,0,1,5
+Can I temporarily upgrade my subscription for a one-time project?,0,1,0,0,0,2
+I have suggestions for improving the product's performance and speed,0,0,0,0,1,5
+Can you provide case studies or success stories from your existing customers?,1,0,0,0,0,1
+What are the available payment methods for subscribing to your service?,0,1,0,0,0,2
+I'm experiencing network connectivity issues with the software,0,0,1,0,0,3
+I need help understanding the breakdown of taxes on my invoice,0,0,0,1,0,4
+Is there a dedicated onboarding process for new customers?,1,0,0,0,0,1
+Can I switch from an annual to a monthly subscription?,0,1,0,0,0,2
+I accidentally deleted a project can it be recovered from a backup?,0,0,1,0,0,3
+I have a suggestion for improving the response time of customer support,0,0,0,0,1,5
+Are there any special offers or discounts for loyal customers?,1,0,0,0,0,1
+Can I add additional licenses to my current subscription plan?,0,1,0,0,0,2
+How can I troubleshoot a recurring error message in the software?,0,0,1,0,0,3
+I'm having trouble understanding the currency conversion on my bill,0,0,0,1,0,4
+Do you provide personalized training sessions for your product?,1,0,0,0,0,1
+Can I transfer my subscription to a colleague within my organization?,0,1,0,0,0,2
+I need to update my billing contact information how can I do that?,0,0,0,1,0,4
+Is there a user community for sharing tips and best practices?,0,0,0,0,1,5
+Can I pause my subscription and resume it at a later date?,0,1,0,0,0,2
+I have ideas for integrating your product with other popular tools,0,0,0,0,1,5
+Can you provide a product demo specifically for our industry?,1,0,0,0,0,1
+What are the options for upgrading or downgrading my subscription plan?,0,1,0,0,0,2
+I'm encountering a login error when trying to access the software,0,0,1,0,0,3
+I have a question about the prorated charges on my invoice,0,0,0,1,0,4
+Is there a dedicated account manager for enterprise customers?,1,0,0,0,0,1
+Can I switch my subscription plan to a different product within your suite?,0,1,0,0,0,2
+I accidentally cleared my browser cache and lost important data can it be recovered?,0,0,1,0,0,3
+I have feedback on improving the user experience for visually impaired users,0,0,0,0,1,5
+Are there any seasonal or promotional discounts available?,1,0,0,0,0,1
+Can I transfer my subscription to another department within my organization?,0,1,0,0,0,2
+How can I troubleshoot integration issues with third-party applications?,0,0,1,0,0,3
+I'm having difficulty understanding the itemized charges on my bill,0,0,0,1,0,4
+Do you provide on-site training sessions for larger teams?,1,0,0,0,0,1
+Can I transfer my subscription to a different individual within my company?,0,1,0,0,0,2
+I need to update the payment details for my subscription how can I do that?,0,0,0,1,0,4
+Is there a user forum where I can ask questions and share customizations?,0,0,0,0,1,5
+Can I pause my subscription and extend the subscription period accordingly?,0,1,0,0,0,2
+I have suggestions for expanding the product's reporting and analytics features,0,0,0,0,1,5
+Can you provide testimonials from satisfied customers in our industry?,1,0,0,0,0,1
+What are the available add-ons or upgrades for my current subscription?,0,1,0,0,0,2
+I'm encountering compatibility issues with the software and my operating system,0,0,1,0,0,3
+I have a question about the payment terms and due dates on my invoice,0,0,0,1,0,4
+Is there a dedicated account manager for enterprise-level subscriptions?,1,0,0,0,0,1
+Can I switch my subscription to a different product within your product lineup?,0,1,0,0,0,2
+I accidentally deleted a folder containing important files can it be recovered?,0,0,1,0,0,3
+I have feedback on improving the product's error handling and messaging,0,0,0,0,1,5
+Are there any limited-time promotions or discounts available?,1,0,0,0,0,1
+Can I transfer my subscription to another branch or location within my organization?,0,1,0,0,0,2
+How can I troubleshoot issues with the software's performance on my device?,0,0,1,0,0,3
+I'm having difficulty understanding the breakdown of taxes and fees on my bill,0,0,0,1,0,4
+Do you provide personalized training sessions for enterprise customers?,1,0,0,0,0,1
+Can I transfer my subscription to another team member within my organization?,0,1,0,0,0,2
+I need to update the credit card information associated with my subscription,0,0,0,1,0,4
+Is there a user community or online forum for sharing tips and tricks?,0,0,0,0,1,5
+Can I temporarily suspend my subscription and resume it at a later date?,0,1,0,0,0,2
+I have ideas for improving the product's user interface and navigation,0,0,0,0,1,5
+Can you provide a comparison of your product with competitors in the market?,1,0,0,0,0,1
+What are the renewal options for my subscription once it expires?,0,1,0,0,0,2
+I'm experiencing frequent crashes and errors with the software,0,0,1,0,0,3
+I have a question about the late payment charges on my invoice,0,0,0,1,0,4
+Is there a dedicated support line for priority or VIP customers?,1,0,0,0,0,1
+Can I upgrade my subscription to a higher tier for additional features?,0,1,0,0,0,2
+I accidentally overwritten an important document can it be recovered?,0,0,1,0,0,3
+I have suggestions for enhancing the product's error reporting and logging,0,0,0,0,1,5
+Are there any special promotions for customers who refer new businesses?,1,0,0,0,0,1
+Can I transfer my subscription to a different account within my organization?,0,1,0,0,0,2
+How can I troubleshoot integration issues with third-party services?,0,0,1,0,0,3
+I'm having trouble understanding the breakdown of fees and charges on my bill,0,0,0,1,0,4
+Do you offer customized training programs tailored to our specific needs?,1,0,0,0,0,1
+Can I transfer my subscription to another business unit within my company?,0,1,0,0,0,2
+I need to update the billing email address for my subscription how can I do that?,0,0,0,1,0,4
+Is there a user community for sharing ideas and requesting new features?,0,0,0,0,1,5
+Can I temporarily pause my subscription and resume it at a later date without any penalty?,0,1,0,0,0,2
+I have suggestions for improving the product's performance and response time,0,0,0,0,1,5
+Can you provide a demo tailored to our specific business needs?,1,0,0,0,0,1
+What are the options for upgrading my subscription to a higher plan?,0,1,0,0,0,2
+I'm encountering a connectivity issue when trying to access the software,0,0,1,0,0,3
+I have a question about the payment methods accepted for my invoice,0,0,0,1,0,4
+Is there a dedicated account manager for key enterprise customers?,1,0,0,0,0,1
+Can I switch my subscription to a different edition of the product?,0,1,0,0,0,2
+I accidentally moved an important file to the wrong folder can it be retrieved?,0,0,1,0,0,3
+I have feedback on improving the product's user onboarding experience,0,0,0,0,1,5
+Are there any special discounts available for non-profit organizations?,1,0,0,0,0,1
+Can I transfer my subscription to a different department within my company?,0,1,0,0,0,2
+How can I troubleshoot synchronization issues with external applications?,0,0,1,0,0,3
+I'm having difficulty understanding the itemized charges and taxes on my bill,0,0,0,1,0,4
+Do you provide personalized onboarding sessions for enterprise clients?,1,0,0,0,0,1
+Can I transfer my subscription to another team or project within my organization?,0,1,0,0,0,2
+I need to update the billing contact information for my subscription how can I do that?,0,0,0,1,0,4
+Is there a user forum where I can seek help from other users and experts?,0,0,0,0,1,5
+Can I temporarily downgrade my subscription to a lower plan and upgrade later?,0,1,0,0,0,2
+I have ideas for enhancing the product's collaboration and communication features,0,0,0,0,1,5
+Can you provide information about the product's compatibility with different operating systems?,0,0,1,0,0,3
+I have a question regarding the refund policy for my subscription,0,1,0,0,0,2
+Is there a dedicated technical support team available for assistance?,0,0,1,0,0,3
+I'm having trouble accessing my account and need help resetting my password,0,0,1,0,0,3
+Can you provide a breakdown of the taxes and fees on my invoice?,0,0,0,1,0,4
+I'm interested in learning more about the product's security features and protocols,0,0,1,0,0,3
+Is there a trial period available for testing the product before committing to a subscription?,1,0,0,0,0,1
+Can I transfer my subscription to another company or organization?,0,1,0,0,0,2
+How can I troubleshoot performance issues with the software on my device?,0,0,1,0,0,3
+I have a question about the payment due dates and grace period for my invoice,0,0,0,1,0,4
+Do you offer training sessions or webinars to help users maximize the product's potential?,1,0,0,0,0,1
+Can I switch my subscription to a different pricing model or billing cycle?,0,1,0,0,0,2
+I accidentally deleted a project folder can it be restored from a backup?,0,0,1,0,0,3
+I have suggestions for improving the product's reporting and analytics capabilities,0,0,0,0,1,5
+Are there any promotional offers or discounts for annual subscription commitments?,1,0,0,0,0,1
+Can I transfer my subscription to a different user within my organization?,0,1,0,0,0,2
+I need to update the payment method associated with my subscription how can I do that?,0,0,0,1,0,4
+Is there a user community where I can share feedback and feature requests?,0,0,0,0,1,5
+Can I temporarily suspend my subscription while I'm on vacation or not using the product?,0,1,0,0,0,2
+I have ideas for enhancing the product's user experience and interface design,0,0,0,0,1,5
